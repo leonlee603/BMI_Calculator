@@ -1,0 +1,90 @@
+body {
+    background-color: #f0efeb;
+}
+.container {
+    border-radius: 10px;
+    background-color: white  ;
+    text-align: center;
+    max-width: 360px;
+    margin: 0 auto;
+    box-shadow: 0 0 15px #b7b7a4;
+    margin-top: 40px;
+}
+.header {
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    margin: 0;
+    border-radius: 10px 10px 0 0;
+    height: 150px
+}
+h1#topic {
+    padding: 50px 0;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 45px;
+    font-family: 'Patua One', cursive;
+}
+.content {
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+#height, #weight {
+    border: none;
+    text-align: center;
+    background-color: none;
+    outline: none;
+    border-bottom: 1px solid #457b9d;
+    width: 150px;
+}
+#height:focus, #weight:focus {
+    background-color: none;
+    outline: none;
+    border-bottom: 1px solid #2b4c61;
+    width: 165px;
+    transition: .2s;
+}
+form > p {
+    margin: 20px 0 5px 0;
+}
+#bmi {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1d3557;
+    margin: 20px 0;
+}
+#enter {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+    line-height: 13px;
+    background-color: #a8dadc;
+}
+#enter:hover {
+    background-color: #1d3557;
+    color: white;
+    font-size: 16px;
+    transition: .3s;
+    line-height: 11px;
+}
+#result {
+    color: #1d3557;
+}
+.information {
+    font-size: 16px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    
+}
+.information > p {
+    margin: 0 auto;
+}
+.highlight {
+    color: #1d3557;
+    border: none;
+    background-color: #d8d8d8;
+    border-radius: 5px;
+    width: 180px;
+    transition: .5s;
+}
